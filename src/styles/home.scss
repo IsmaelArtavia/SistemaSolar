@@ -1,0 +1,327 @@
+.Sol {
+     width: 50px;
+     height: 50px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: yellow;
+position: absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+animation: girarSol 2s infinite linear;
+}
+
+
+
+.orbitaMercurio{
+     width: 123px;
+     height: 123px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background:none;
+     position: absolute;
+          border: 1px solid rgb(206, 208, 216);     
+
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+}
+.mercurio{
+         width: 10px;
+     height: 10px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background:#090979;
+     position: absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+ animation: girarMercurio 5s infinite linear;
+}
+.orbitaVenus{
+       width: 200px;
+     height: 200px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background:none;
+     position: absolute;
+          border: 1px solid rgb(153, 253, 21);     
+
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+
+}
+
+.venus{
+     width: 10px;
+     height: 10px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #ff9500;
+     position: absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+ animation: girarVenus 13.67s infinite linear;
+}
+
+.orbitaTierra{
+       width: 300px;
+     height: 300px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background:none;
+     position: absolute;
+          border: 1px solid rgb(187, 208, 235);     
+
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+
+}
+
+.tierra{
+         width: 10px;
+     height: 10px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #238fa4;
+     position: absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+ animation: girarTierra 16.07s infinite linear;
+}
+
+.orbitaMarte{
+       width: 400px;
+     height: 400px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background:none;
+     position: absolute;
+          border: 1px solid rgb(155, 142, 201);     
+
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+
+}
+
+.marte{
+         width: 10px;
+     height: 10px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #ee1e1e;
+     position: absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+ animation: girarMarte 19.84s infinite linear;
+}
+
+.orbitaJupiter{
+       width: 500px;
+     height: 500px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background:none;
+     position: absolute;
+          border: 1px solid white;     
+
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+
+}
+
+.jupiter{
+         width: 15px;
+     height: 15px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #eebd1e;
+     position: absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+ animation: girarJupiter 36.66s infinite linear;
+}
+
+.orbitaSaturno{
+       width: 600px;
+     height: 600px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background:none;
+     position: absolute;
+          border: 1px solid white;     
+
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+
+}
+
+.saturno{
+         width: 20px;
+     height: 20px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #e9d594;
+     position: absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+ animation: girarSaturno 49.67s infinite linear;
+}
+
+.orbitaUrano{
+       width: 700px;
+     height: 700px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background:none;
+     position: absolute;
+          border: 1px solid white;     
+
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+
+}
+
+.urano{
+         width: 10px;
+     height: 10px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #7d01e2;
+     position: absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+ animation:  girarUrano 70.32s infinite linear;
+}
+.orbitaNeptuno{
+       width: 800px;
+     height: 800px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background:none;
+     position: absolute;
+          border: 1px solid white;     
+
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+
+}
+
+.neptuno{
+         width: 10px;
+     height: 10px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #7a9bb9;
+     position: absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+ animation: girarNeptuno 88.19s infinite linear;
+}
+
+@keyframes girarSol {
+    from { transform: rotate(0deg)  translate(5px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(5px) rotate(-360deg); }
+}
+
+@keyframes girarMercurio {
+    from { transform: rotate(0deg)  translate(-60px) rotate(-360deg); }
+    to { transform: rotate(360deg) translate(-60px) rotate(-360deg); }
+}
+@keyframes girarVenus {
+    from { transform: rotate(0deg)  translate(-100px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(-100px) rotate(-360deg); }
+}
+@keyframes girarMarte {
+    from { transform: rotate(0deg)  translate(-200px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(-200px) rotate(-360deg); }
+}
+@keyframes girarTierra {
+    from { transform: rotate(0deg)  translate(-150px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(-150px) rotate(-360deg); }
+}
+@keyframes girarJupiter {
+    from { transform: rotate(0deg)  translate(-250px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(-250px) rotate(-360deg); }
+}
+@keyframes girarSaturno {
+    from { transform: rotate(0deg)  translate(-300px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(-300px) rotate(-360deg); }
+}
+@keyframes girarUrano {
+    from { transform: rotate(0deg)  translate(-350px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(-350px) rotate(-360deg); }
+}
+@keyframes girarNeptuno {
+    from { transform: rotate(0deg)  translate(-400px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(-400px) rotate(-360deg); }
+}
+
+body{
+background-color:rgb(60, 134, 134);
+}
