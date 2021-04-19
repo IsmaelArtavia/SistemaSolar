@@ -457,6 +457,89 @@ bottom:0;
 margin: auto;
  animation:  girarUrano 70.32s infinite linear;
 }
+
+.titania{
+         width: 5px;
+     height: 5px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #8f8380;
+     position: absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+ animation: girarTitania 5s infinite linear;
+            
+}
+.oberon{
+         width: 10px;
+     height: 10px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #d68c7a;
+     position: absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+ animation: girarOberon 7s infinite linear;
+            
+}
+.umbriel{
+         width: 10px;
+     height: 10px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #861e03;
+     position: absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+ animation: girarUmbriel 10s infinite linear;
+            
+}
+
+.ariel{
+         width: 8px;
+     height: 8px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #1a7c46;
+     position: absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+ animation: girarAriel 15s infinite linear;
+            
+}
+.miranda{
+         width: 12px;
+     height: 12px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #7bf8b3;
+     position: absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+ animation: girarMiranda 18s infinite linear;
+            
+}
+
 .orbitaNeptuno{
        width: 800px;
      height: 800px;
@@ -489,6 +572,39 @@ right:0;
 bottom:0;
 margin: auto;
  animation: girarNeptuno  88.19s infinite linear;
+}
+.triton{
+         width: 15px;
+     height: 15px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #8474a0;
+     position: absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+ animation: girarTriton 10s infinite linear;
+            
+}
+
+.proteo{
+         width: 10px;
+     height: 10px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #d4c6ec;
+     position: absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+ animation: girarProteo 5s infinite linear;
+            
 }
 
 @keyframes girarSol {
@@ -570,6 +686,26 @@ margin: auto;
     from { transform: rotate(0deg)  translate(25px) rotate(0deg); }
     to { transform: rotate(360deg) translate(25px) rotate(-360deg); }
 }
+@keyframes girarTitania {
+    from { transform: rotate(0deg)  translate(15px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(15px) rotate(-360deg); }
+}
+@keyframes girarOberon {
+    from { transform: rotate(0deg)  translate(25px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(25px) rotate(-360deg); }
+}
+@keyframes girarUmbriel {
+    from { transform: rotate(0deg)  translate(35px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(35px) rotate(-360deg); }
+}
+@keyframes girarAriel {
+    from { transform: rotate(0deg)  translate(45px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(30px) rotate(-360deg); }
+}
+@keyframes girarMiranda {
+    from { transform: rotate(0deg)  translate(55px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(65px) rotate(-360deg); }
+}
 @keyframes girarUrano {
     from { transform: rotate(0deg)  translate(-350px) rotate(0deg); }
     to { transform: rotate(360deg) translate(-350px) rotate(-360deg); }
@@ -577,6 +713,14 @@ margin: auto;
 @keyframes girarNeptuno {
     from { transform: rotate(0deg)  translate(-400px) rotate(0deg); }
     to { transform: rotate(360deg) translate(-400px) rotate(-360deg); }
+}
+@keyframes girarTriton {
+    from { transform: rotate(0deg)  translate(30px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(30px) rotate(-360deg); }
+}
+@keyframes girarProteo {
+    from { transform: rotate(0deg)  translate(20px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(20px) rotate(-360deg); }
 }
 
 body{

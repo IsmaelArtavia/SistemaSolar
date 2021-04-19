@@ -48,12 +48,15 @@ export function Home() {
 			<div className="urano">
 				<div className="titania"></div>
 				<div className="oberon"></div>
-				<div className="umbirel"></div>
+				<div className="umbriel"></div>
 				<div className="ariel"></div>
 				<div className="miranda"></div>
 			</div>
 			<div className="orbitaNeptuno"></div>
-			<div className="neptuno"></div>
+			<div className="neptuno">
+				<div className="triton"></div>
+				<div className="proteo"></div>
+			</div>
 		</div>
 	);
 }
